@@ -1,0 +1,110 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+
+#wrapper{grid-template-areas: "nav nav nav"
+    "body body body";
+    display: grid;
+    font-family: 'Comfortaa', cursive;
+}
+
+#nav{grid-area: nav;
+grid-template-areas: "home school skills pepeha outlook instagram discord";
+display: grid;
+    font-size: 24px;
+    background-color: powderblue
+}
+
+#home{grid-area: home}
+
+#school{grid-area: school}
+
+#skills{grid-area: skills}
+
+#pepeha{grid-area: pepeha}
+
+#outlook{grid-area: outlook;
+padding: 25px}
+
+#instagram{grid-area: instagram;
+padding: 25px}
+
+#discord{grid-area: discord;
+padding: 25px}
+
+
+ .oval {
+      width: 240px;
+      height: 120px;
+      background-color: skyblue;
+      border-radius: 120px / 60px;
+     display: flex;/* or inline-flex*/;
+      align-items: center;
+     justify-content: center
+    }
+
+ .oval1 {
+      width: 240px;
+      height: 120px;
+      background-color: skyblue;
+      border-radius: 120px / 60px;
+     display: flex;/* or inline-flex*/;
+      align-items: center;
+     justify-content: center
+    }
+
+ .oval2 {
+      width: 240px;
+      height: 120px;
+      background-color: skyblue;
+      border-radius: 120px / 60px;
+     display: flex;/* or inline-flex*/;
+      align-items: center;
+     justify-content: center
+    }
+
+ .oval3 {
+      width: 240px;
+      height: 120px;
+      background-color: skyblue;
+      border-radius: 120px / 60px;
+     display: flex;/* or inline-flex*/;
+      align-items: center;
+     justify-content: center
+    }
+
+#box{width:250px;
+	height:250px;
+	margin:10px;
+	padding:10px;
+    background-color: mediumpurple;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;  
+}
+
+#body{grid-area: body;
+grid-template-areas: "box text text"
+    "image text text";
+display: grid;
+    background-color: lightcyan
+   
+}
+
+#box{grid-area: box}
+
+#text{grid-area: text;
+padding-right: 80px;
+    padding-left: 80px;
+    text-align: center
+}
+#image{grid-area: image;
+padding-left: 40px}

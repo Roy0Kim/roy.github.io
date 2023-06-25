@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#wrapper{grid-template-areas: "nav nav nav"
+    "body body body";
+    display: grid;
+    font-family: 'Comfortaa', cursive;
+}
+
+#nav{grid-area: nav;
+grid-template-areas: "home school skills pepeha outlook instagram discord";
+display: grid;
+    font-size: 24px;
+    background-color: powderblue
+}
+
+#home{grid-area: home}
+
+#school{grid-area: school}
+
+#skills{grid-area: skills}
+
+#pepeha{grid-area: pepeha}
+
+#outlook{grid-area: outlook;
+padding: 25px}
+
+#instagram{grid-area: instagram;
+padding: 25px}
+
+#discord{grid-area: discord;
+padding: 25px}
+
+
+ .oval {
+      width: 240px;
+      height: 120px;
+      background-color: skyblue;
+      border-radius: 120px / 60px;
+     display: flex;/* or inline-flex*/;
+      align-items: center;
+     justify-content: center
+    }
+
+ .oval1 {
+      width: 240px;
+      height: 120px;
+      background-color: skyblue;
+      border-radius: 120px / 60px;
+     display: flex;/* or inline-flex*/;
+      align-items: center;
+     justify-content: center
+    }
+
+ .oval2 {
+      width: 240px;
+      height: 120px;
+      background-color: skyblue;
+      border-radius: 120px / 60px;
+     display: flex;/* or inline-flex*/;
+      align-items: center;
+     justify-content: center
+    }
+
+ .oval3 {
+      width: 240px;
+      height: 120px;
+      background-color: skyblue;
+      border-radius: 120px / 60px;
+     display: flex;/* or inline-flex*/;
+      align-items: center;
+     justify-content: center
+    }
+
+#body{grid-area: body;
+grid-template-areas: "photo name name"
+    "photo text text";
+display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-size: 24px;
+    background-color: lightcyan;
+    background-image: url(../images/background.jpg); 
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+#photo{grid-area: photo;
+}
+#name{grid-area: name;
+color: white;
+    font-size: 70px;
+    padding-top: 150px;
+    padding-left: 265px   
+}
+
+#text{grid-area: text;
+    justify-content: center;
+font-size: 70px;
+padding-left: 230px;
+}
+
+mark{background-color: mediumpurple;
+    color: #6C3483}
+
+a{color: white}
+
+
+
+
+
+  
+
+
+
+
